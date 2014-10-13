@@ -4,3 +4,10 @@ C:\Spikes\MineFieldKata\MineFieldKata\MineFiledKata\bin\Debug\nunit.framework.dl
 C:\Spikes\MineFieldKata\MineFieldKata\MineFiledKata\bin\Debug\nunit.framework.xml
 C:\Spikes\MineFieldKata\MineFieldKata\MineFiledKata\obj\Debug\MineFieldKata.dll
 C:\Spikes\MineFieldKata\MineFieldKata\MineFiledKata\obj\Debug\MineFieldKata.pdb
+C:\Spikes\MineFieldKata\MineFieldKata\MineFieldKata\bin\Debug\MineFieldKata.dll
+C:\Spikes\MineFieldKata\MineFieldKata\MineFieldKata\bin\Debug\MineFieldKata.pdb
+C:\Spikes\MineFieldKata\MineFieldKata\MineFieldKata\bin\Debug\nunit.framework.dll
+C:\Spikes\MineFieldKata\MineFieldKata\MineFieldKata\bin\Debug\nunit.framework.xml
+C:\Spikes\MineFieldKata\MineFieldKata\MineFieldKata\obj\Debug\MineFieldKata.csprojResolveAssemblyReference.cache
+C:\Spikes\MineFieldKata\MineFieldKata\MineFieldKata\obj\Debug\MineFieldKata.dll
+C:\Spikes\MineFieldKata\MineFieldKata\MineFieldKata\obj\Debug\MineFieldKata.pdb

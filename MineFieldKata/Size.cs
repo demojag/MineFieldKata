@@ -1,5 +1,4 @@
 ﻿using MineFieldKata.Exceptions;
-using MineFieldKata.Tests;
 
 namespace MineFieldKata
 {
