@@ -1,0 +1,7 @@
+C:\Spikes\MineFieldKata\MineFiledKata\MineFiledKata\bin\Debug\MineFiledKata.dll
+C:\Spikes\MineFieldKata\MineFiledKata\MineFiledKata\bin\Debug\MineFiledKata.pdb
+C:\Spikes\MineFieldKata\MineFiledKata\MineFiledKata\bin\Debug\nunit.framework.dll
+C:\Spikes\MineFieldKata\MineFiledKata\MineFiledKata\bin\Debug\nunit.framework.xml
+C:\Spikes\MineFieldKata\MineFiledKata\MineFiledKata\obj\Debug\MineFiledKata.csprojResolveAssemblyReference.cache
+C:\Spikes\MineFieldKata\MineFiledKata\MineFiledKata\obj\Debug\MineFiledKata.dll
+C:\Spikes\MineFieldKata\MineFiledKata\MineFiledKata\obj\Debug\MineFiledKata.pdb

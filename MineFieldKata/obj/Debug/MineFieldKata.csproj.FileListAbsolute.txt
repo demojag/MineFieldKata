@@ -1,0 +1,6 @@
+C:\Spikes\MineFieldKata\MineFieldKata\MineFiledKata\bin\Debug\MineFieldKata.dll
+C:\Spikes\MineFieldKata\MineFieldKata\MineFiledKata\bin\Debug\MineFieldKata.pdb
+C:\Spikes\MineFieldKata\MineFieldKata\MineFiledKata\bin\Debug\nunit.framework.dll
+C:\Spikes\MineFieldKata\MineFieldKata\MineFiledKata\bin\Debug\nunit.framework.xml
+C:\Spikes\MineFieldKata\MineFieldKata\MineFiledKata\obj\Debug\MineFieldKata.dll
+C:\Spikes\MineFieldKata\MineFieldKata\MineFiledKata\obj\Debug\MineFieldKata.pdb
