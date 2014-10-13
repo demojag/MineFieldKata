@@ -2,10 +2,10 @@
 
 namespace MineFieldKata
 {
-    public class Mine : IMine
+    public class Mine : IMine, ICell
     {
         public bool Exploded { get; private set; }
-
+       
         public bool Blast()
         {
             if (Exploded)

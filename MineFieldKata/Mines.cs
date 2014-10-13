@@ -9,6 +9,11 @@ namespace MineFieldKata
         private readonly IList<Mine> _minesList;
         public int MineCount { get { return _minesList.Count(); } }
 
+        public IList<Mine> Value
+        {
+            get { return new List<Mine>(_minesList); }
+        }
+
         public Mines(int numberOfMines)
         {
             if (numberOfMines <= 0)

@@ -48,6 +48,7 @@ namespace MineFieldKata.Tests
             field.Populate(new Mines(ExpectedMines));
 
             Assert.AreEqual(ExpectedMines, field.ActiveMines);
+
         }
 
         [Test]
@@ -79,5 +80,6 @@ namespace MineFieldKata.Tests
             Assert.Throws<ArgumentNullException>(() => field.Populate(null));
 
         }
+
     }
 }
