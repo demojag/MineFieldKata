@@ -7,6 +7,10 @@ namespace MineFieldKata.Tests
     [TestFixture]
     public class MineFieldTest
     {
+        const int ExpectedWidth = 3;
+        const int ExpectedHeight = 4;
+        const int ExpectedMines = 3;
+
         [Test]
         public void CreateWithInputOfProperSize()
         {
@@ -26,9 +30,9 @@ namespace MineFieldKata.Tests
         [TestCase(-3, 1)]
         [TestCase(0, 0)]
         [TestCase(-3, -3)]
-        public void CreateWithInputOfInvalidNumber(int expectedWidth, int expectedHeight)
+        public void CreateWithInputOfInvalidNumber(int width, int height)
         {
-            Assert.Throws<InvalidInputException>(() => new MineField(new Size(expectedHeight), new Size(expectedWidth)));
+            Assert.Throws<InvalidInputException>(() => new MineField(new Size(height), new Size(width)));
         }
 
         [Test]
@@ -40,14 +44,10 @@ namespace MineFieldKata.Tests
         [Test]
         public void AssignNumberOfMines()
         {
-            const int expectedWidth = 3;
-            const int expectedHeight = 4;
-            const int expectedMines = 3;
+            var field = new MineField(new Size(ExpectedHeight), new Size(ExpectedWidth));
+            field.Populate(new Mines(ExpectedMines));
 
-            var field = new MineField(new Size(expectedHeight), new Size(expectedWidth));
-            field.Populate(new Mines(expectedMines));
-
-            Assert.AreEqual(expectedMines, field.ActiveMines);
+            Assert.AreEqual(ExpectedMines, field.ActiveMines);
         }
 
         [Test]
@@ -59,18 +59,16 @@ namespace MineFieldKata.Tests
             const int expectedHeight = 4;
 
             var field = new MineField(new Size(expectedHeight), new Size(expectedWidth));
-            Assert.Throws<InvalidInputException>(()=>field.Populate(new Mines(expectedMines)));
+            Assert.Throws<InvalidInputException>(() => field.Populate(new Mines(expectedMines)));
 
         }
 
         [Test]
         public void AssignNumberOfMinesAboveFieldSize()
         {
-            const int expectedWidth = 2;
-            const int expectedHeight = 2;
             const int invalidNumberOfMines = 100;
 
-            var field = new MineField(new Size(expectedHeight), new Size(expectedWidth));
+            var field = new MineField(new Size(ExpectedHeight), new Size(ExpectedWidth));
             Assert.Throws<MineOwerflowException>(() => field.Populate(new Mines(invalidNumberOfMines)));
         }
 
@@ -78,7 +76,7 @@ namespace MineFieldKata.Tests
         public void AssignNullMines()
         {
             var field = new MineField(new Size(3), new Size(3));
-            Assert.Throws<ArgumentNullException>(()=>field.Populate(null));
+            Assert.Throws<ArgumentNullException>(() => field.Populate(null));
 
         }
     }
