@@ -1,4 +1,4 @@
-﻿using System;
+﻿using MineFieldKata.Exceptions;
 using NUnit.Framework;
 
 namespace MineFieldKata.Tests
@@ -28,15 +28,6 @@ namespace MineFieldKata.Tests
         public void InputInvalidNumber(int expectedWidth, int expectedHeight)
         {
             Assert.Throws<InvalidInputException>(() => new MineField(new Size(expectedHeight), new Size(expectedWidth)));
-        }
-    }
-
-    public class InvalidInputException : Exception
-    {
-        public InvalidInputException(String message)
-            : base(message)
-        {
-
         }
     }
 }
